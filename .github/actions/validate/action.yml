@@ -5,4 +5,5 @@ runs:
   using: 'composite'       
   steps:
     - name: run with dotnet
-      uses: dflook/terraform-validate@v1 
+      run: terraform validate
+      shell: bash
