@@ -1,0 +1,8 @@
+name: Run action
+description: run action for dotnet application
+
+runs:
+  using: 'composite'       
+  steps:
+    - name: run with dotnet
+      uses: dflook/terraform-validate@v1 
