@@ -1,5 +1,5 @@
-name: Run action
-description: run action for dotnet application
+name: Terraform validate action
+description: To validate terraform configuration
 
 runs:
   using: 'composite'       
